@@ -11,7 +11,7 @@ const Contacts = () => {
 
   const columns = [
     { field: "id", headerName: "ID", flex: 0.5 },
-    { field: "registrarID", headerName: "Registrar ID" },
+    { field: "registrarId", headerName: "Registrar ID" },
     {
       field: "name",
       headerName: "Name",
@@ -46,7 +46,7 @@ const Contacts = () => {
       flex: 1,
     },
     {
-      field: "zipcode",
+      field: "zipCode",
       headerName: "Zip Code",
       flex: 1,
     },
@@ -82,12 +82,16 @@ const Contacts = () => {
             borderTop: "none",
             backgroundColor: colors.blueAccent[700],
           },
-          "& .MuiCheckbox-root": {
-            color: `${colors.greenAccent[200]} !important`,
+          "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
+            color: `${colors.grey[100]} !important`,
           },
         }}
       >
-        <DataGrid checkboxSelection rows={mockDataTeam} columns={columns} />
+        <DataGrid
+          rows={mockDataContacts}
+          columns={columns}
+          components={{ Toolbar: GridToolbar }}
+        />
       </Box>
     </Box>
   );
