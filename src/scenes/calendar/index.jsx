@@ -15,6 +15,10 @@ import {
 import Header from "../../components/header";
 import { tokens } from "../../theme";
 
-const Calendar = () => {};
+const Calendar = () => {
+  const theme = useTheme();
+  const colors = tokens(theme.palette.mode);
+  const [currentEvents, setCurrentEvents] = useState([]);
+};
 
 export default Calendar;
