@@ -40,7 +40,7 @@ const Form = () => {
       <Header title="CREATE USER" subtitle="Create a New User Profile" />
 
       <Formik
-        onSubmit={handleFormSubmit()}
+        onSubmit={handleFormSubmit}
         initialValues={initialValues}
         validationSchema={userSchema}
       >
