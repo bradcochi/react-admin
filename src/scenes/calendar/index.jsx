@@ -111,6 +111,14 @@ const Calendar = () => {
               center: "title",
               right: "dayGridMonth, timeGridWeek, timeGridDay, listMonth",
             }}
+            initialView="dayGridMonth"
+            editable={true}
+            selectable={true}
+            selectMirror={true}
+            dayMaxEvents={true}
+            select={handleDateClick}
+            eventClick={handleEventClick}
+            eventsSet={(events) => setCurrentEvents(events)}
           />
         </Box>
       </Box>
