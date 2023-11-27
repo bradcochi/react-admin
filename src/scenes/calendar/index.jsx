@@ -106,6 +106,11 @@ const Calendar = () => {
               interactionPlugin,
               listPlugin,
             ]}
+            headerToolbar={{
+              left: "prev, next today",
+              center: "title",
+              right: "dayGridMonth, timeGridWeek, timeGridDay, listMonth",
+            }}
           />
         </Box>
       </Box>
