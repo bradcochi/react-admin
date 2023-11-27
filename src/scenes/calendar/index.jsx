@@ -95,6 +95,11 @@ const Calendar = () => {
             ))}
           </List>
         </Box>
+
+        {/* CALENDAR */}
+        <Box flex="1 1 100%" ml="15px">
+          <FullCalendar />
+        </Box>
       </Box>
     </Box>
   );
