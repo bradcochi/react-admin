@@ -12,7 +12,14 @@ const FAQ = () => {
 
   return (
     <Box m="20px">
-      <Header title="FAQ" subtitle="Frequently Asked Questions" />
+      <Header title="FAQ" subtitle="Frequently Asked Questions Page" />
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />} />
+        <Typography color={colors.greenAccent[500]} variant="h5">
+          An Important Question
+        </Typography>
+      </Accordion>
     </Box>
   );
 };
