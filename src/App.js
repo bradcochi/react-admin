@@ -39,7 +39,6 @@ function App() {
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/line" element={<Line />} /> */}
               {/* <Route path="/pie" element={<Pie />} /> */}
-
               {/* <Route path="/geography" element={<Geography />} /> */}
             </Routes>
           </main>
