@@ -27,7 +27,7 @@ const Chsaa = () => {
               label="Display"
             />
             <Button variant="contained" color="success">
-              Send to Database
+              Save to Database
             </Button>
           </FormGroup>
         </Box>
@@ -39,7 +39,7 @@ const Chsaa = () => {
               label="Display"
             />
             <Button variant="contained" color="success">
-              Send to Database
+              Save to Database
             </Button>
           </FormGroup>
         </Box>
@@ -51,7 +51,7 @@ const Chsaa = () => {
               label="Display"
             />
             <Button variant="contained" color="success">
-              Send to Database
+              Save to Database
             </Button>
           </FormGroup>
         </Box>
@@ -63,7 +63,7 @@ const Chsaa = () => {
               label="Display"
             />
             <Button variant="contained" color="success">
-              Send to Database
+              Save to Database
             </Button>
           </FormGroup>
         </Box>
@@ -75,7 +75,7 @@ const Chsaa = () => {
               label="Display"
             />
             <Button variant="contained" color="success">
-              Send to Database
+              Save to Database
             </Button>
           </FormGroup>
         </Box>
@@ -92,7 +92,7 @@ const Chsaa = () => {
               label="Display"
             />
             <Button variant="contained" color="success">
-              Send to Database
+              Save to Database
             </Button>
           </FormGroup>
         </Box>
@@ -104,7 +104,7 @@ const Chsaa = () => {
               label="Display"
             />
             <Button variant="contained" color="success">
-              Send to Database
+              Save to Database
             </Button>
           </FormGroup>
         </Box>
@@ -116,7 +116,72 @@ const Chsaa = () => {
               label="Display"
             />
             <Button variant="contained" color="success">
-              Send to Database
+              Save to Database
+            </Button>
+          </FormGroup>
+        </Box>
+      </Box>
+      <Box>
+        <Typography fontSize={30}>Spring</Typography>
+      </Box>
+      <Box display="flex" my="20px">
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Baseball</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Save to Database
+            </Button>
+          </FormGroup>
+        </Box>
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Boys Lacrosse</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Save to Database
+            </Button>
+          </FormGroup>
+        </Box>
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Girls Lacrosse</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Save to Database
+            </Button>
+          </FormGroup>
+        </Box>
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Girls Soccer</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Save to Database
+            </Button>
+          </FormGroup>
+        </Box>
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Boys Volleyball</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Save to Database
             </Button>
           </FormGroup>
         </Box>
