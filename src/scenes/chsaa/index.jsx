@@ -16,7 +16,9 @@ const Chsaa = () => {
         />
       </Box>
       <Box>
-        <Typography fontSize={30}>Fall</Typography>
+        <Typography fontSize={30} fontWeight="bold">
+          Fall
+        </Typography>
       </Box>
       <Box display="flex" my="20px">
         <Box mx="10px">
@@ -81,7 +83,9 @@ const Chsaa = () => {
         </Box>
       </Box>
       <Box>
-        <Typography fontSize={30}>Winter</Typography>
+        <Typography fontSize={30} fontWeight="bold">
+          Winter
+        </Typography>
       </Box>
       <Box display="flex" my="20px">
         <Box mx="10px">
@@ -122,7 +126,9 @@ const Chsaa = () => {
         </Box>
       </Box>
       <Box>
-        <Typography fontSize={30}>Spring</Typography>
+        <Typography fontSize={30} fontWeight="bold">
+          Spring
+        </Typography>
       </Box>
       <Box display="flex" my="20px">
         <Box mx="10px">
