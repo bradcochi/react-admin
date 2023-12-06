@@ -14,4 +14,4 @@ const Chsaa = () => {
   );
 };
 
-export default Dashboard;
+export default Chsaa;

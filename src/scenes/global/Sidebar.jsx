@@ -186,7 +186,7 @@ const Sidebar = () => {
             />
             <Item
               title="CHSAA UI"
-              to="/form"
+              to="/chsaa"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
