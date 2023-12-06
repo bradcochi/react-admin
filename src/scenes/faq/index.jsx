@@ -31,7 +31,7 @@ const FAQ = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            An Important Question
+            Another Important Question
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -45,7 +45,7 @@ const FAQ = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            An Important Question
+            A Third Important Question
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -59,7 +59,7 @@ const FAQ = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            An Important Question
+            Yet Another Question
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -73,21 +73,7 @@ const FAQ = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            An Important Question
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
-            massa tincidunt dui ut ornare lectus sit amet est.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
-            An Important Question
+            The Final Question
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
