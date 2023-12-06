@@ -15,29 +15,73 @@ const Chsaa = () => {
           subtitle="Testing out components for CHSAA Seeding UI"
         />
       </Box>
-      <Box display="flex">
-        <FormGroup>
-          <Typography>Baseball</Typography>
-
-          <FormControlLabel
-            control={<Switch defaultChecked />}
-            label="Showing"
-          />
-          <Button variant="contained" color="success">
-            Send to Database
-          </Button>
-        </FormGroup>
-        <FormGroup>
-          <Typography>Baseball</Typography>
-
-          <FormControlLabel
-            control={<Switch defaultChecked />}
-            label="Showing"
-          />
-          <Button variant="contained" color="success">
-            Send to Database
-          </Button>
-        </FormGroup>
+      <Box>
+        <Typography fontSize={30}>Fall</Typography>
+      </Box>
+      <Box display="flex" my="20px">
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Field Hockey</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Send to Database
+            </Button>
+          </FormGroup>
+        </Box>
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Football</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Send to Database
+            </Button>
+          </FormGroup>
+        </Box>
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Boys Soccer</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Send to Database
+            </Button>
+          </FormGroup>
+        </Box>
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Softball</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Send to Database
+            </Button>
+          </FormGroup>
+        </Box>
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Girls Volleyball</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Send to Database
+            </Button>
+          </FormGroup>
+        </Box>
+      </Box>
+      <Box>
+        <Typography fontSize={30}>Winter</Typography>
       </Box>
     </Box>
   );
