@@ -83,6 +83,44 @@ const Chsaa = () => {
       <Box>
         <Typography fontSize={30}>Winter</Typography>
       </Box>
+      <Box display="flex" my="20px">
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Boys Basketball</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Send to Database
+            </Button>
+          </FormGroup>
+        </Box>
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Girls Basketball</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Send to Database
+            </Button>
+          </FormGroup>
+        </Box>
+        <Box mx="10px">
+          <FormGroup>
+            <Typography fontSize={20}>Ice Hockey</Typography>
+            <FormControlLabel
+              control={<Switch defaultChecked color="secondary" />}
+              label="Display"
+            />
+            <Button variant="contained" color="success">
+              Send to Database
+            </Button>
+          </FormGroup>
+        </Box>
+      </Box>
     </Box>
   );
 };
